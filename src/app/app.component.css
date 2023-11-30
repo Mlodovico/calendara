@@ -77,6 +77,25 @@ main {
   height: 200px;
 }
 
+.event-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;}
+
+.event-form-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+}
+
+.event-form-buttons button {
+  color: white;
+  border: 0.5;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
 .header h1 {
   font-weight: bold;
   margin-top: 1rem;
@@ -90,7 +109,7 @@ main {
   width: 5px;
   border-radius: 8px;
   background: var(--red-to-pink-to-purple-vertical-gradient);
-  margin-inline: 0.5rem;
+  margin-inline: 1rem;
 }
 
 .pill-group {
