@@ -80,7 +80,21 @@ main {
 .event-form {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 1rem;}
+  grid-gap: 1rem;
+}
+
+.event-form-inputs {
+  height: 1.5rem;
+  border-radius:8px;
+  border-styles: none;
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.event-form-inputs:focus {
+  outline: none;
+  border: oklch(44.71% 0.074 263.34) solid 2px;
+}
 
 .event-form-buttons {
   display: flex;
